@@ -46,3 +46,34 @@
   opacity: 0;
   pointer-events: none;
 }
+
+.choose-card{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: #365324;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  flex-direction: column;
+  color: black;
+}
+
+.choose-card-text{
+  margin-bottom: 10px;
+}
+
+.choose-card--hidden{
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity ease-in-out 0.7s;
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
