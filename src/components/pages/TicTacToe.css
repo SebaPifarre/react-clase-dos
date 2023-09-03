@@ -14,8 +14,10 @@
   position: relative;
 }
 
-.tictactoe-row {
-  display: flex;
+.tictactoe-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
 
 .winner-card {
