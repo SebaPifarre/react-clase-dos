@@ -1,0 +1,21 @@
+.memotest-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.memotest-img-wrapper {
+    width: 120px;
+    height: 120px;
+    border: 1px solid;
+    display: grid;
+    place-items: center;
+    padding: 1px;
+    background-color: rgb(150, 78, 50);
+
+}
+
+.memotest-img{
+    max-width: 100%;
+    border-radius: 5px;
+}
